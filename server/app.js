@@ -4,15 +4,15 @@ const schema = require('./schema/schema');
 const mongoose = require('mongoose');   // Mongoose: Online MongoDB Instance
 // var MongoClient = require('mongodb').MongoClient,
 
-const cors = require('cors');
+// const cors = require('cors');
 
 const app = express();
 
 // Allow cross-origin requests
-app.use(cors());
+// app.use(cors());
 
 // connnect to mlab database
-mongoose.connect('mongodb://wmzhou:wmzhou9441_example@ds125198.mlab.com:25198/graphql', { useNewUrlParser: true });
+mongoose.connect('mongodb://wmzhou:wmzhou9441@ds125198.mlab.com:25198/graphql', { useNewUrlParser: true });
 // mongoose.connection.once('open', () => {
 //     console.log('Connected to MLab online database...');
 // });

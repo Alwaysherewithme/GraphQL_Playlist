@@ -1,4 +1,9 @@
+# GraphQL Resource For Study
 
+- 
+
+
+```
 localhost:4000/graphql?query=
 
 {
@@ -70,3 +75,5 @@ mutation {
         genre
     }
 }
+
+```
